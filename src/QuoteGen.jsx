@@ -28,7 +28,7 @@ function QuoteGen() {
   return (
 
     <>
-      <div className="indicator ">
+      <div className="indicator md:max-w-[40vw] max-w-80vw]">
         <div className="indicator-item indicator-bottom">
           <button className="btn btn-warning" onClick={()=>fetchQuote()}><img src='https://cdn-icons-png.flaticon.com/128/9923/9923688.png' className='w-5 hover:animate-spin'/></button>
         </div>
