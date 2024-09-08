@@ -35,7 +35,7 @@ function QuoteGen() {
         <div className="card border bg-sky-300">
           <div className="card-body">
 
-            <h2 className="card-title mb-5 font-bold">Quote</h2>
+            <h2 className="card-title mb-5 font-bold text-4xl">Quote</h2>
             <p className=' italic'>'{quote}'</p>
             <div className='w-full flex justify-end text-end'>
             <p>-{author}</p>
